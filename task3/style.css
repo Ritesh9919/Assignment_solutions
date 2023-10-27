@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.todo-container {
+    display: flex;
+}
+
+.tab {
+    flex: 1;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    min-height: 300px;
+    margin: 10px;
+}
+
+.task {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+}

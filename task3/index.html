@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TODO List</title>
+    <link rel="stylesheet" href="./style.css"/>
+    
+        
+</head>
+<body>
+    <div class="todo-container">
+        <div class="tab" id="do-tab" ondrop="drop(event, 'do-tab')" ondragover="allowDrop(event)">
+            <h2>Do</h2>
+        </div>
+        <div class="tab" id="doing-tab" ondrop="drop(event, 'doing-tab')" ondragover="allowDrop(event)">
+            <h2>Doing</h2>
+        </div>
+        <div class="tab" id="done-tab" ondrop="drop(event, 'done-tab')" ondragover="allowDrop(event)">
+            <h2>Done</h2>
+        </div>
+    </div>
+
+    <div id="task-container">
+        <input type="text" id="task-input" placeholder="Add a task">
+        <button onclick="addTask()">Add Task</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
